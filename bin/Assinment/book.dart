@@ -10,7 +10,6 @@ class Book {
       totalBooks++;
     }
 
-
     getTitle() {
       return print('Book Name: $title');
     }
@@ -25,9 +24,9 @@ class Book {
 
     getBookAge() {
       if (currentYear == publicationYear) {
-        print('The book is new');
-      }
-      print('Book is ${currentYear - publicationYear} years old');
+        print('The book: $title is new');
+      }else
+      print('The book: $title is ${currentYear - publicationYear} years old');
       return;
     }
 
@@ -35,7 +34,7 @@ class Book {
       _pagesRead = _pagesRead + pages;
     }
     getPagesRead() {
-      return print('''Number of pages read: $_pagesRead
+      return print('''Number of pages reader read: $_pagesRead
 ----------------------------''');
     }
   }

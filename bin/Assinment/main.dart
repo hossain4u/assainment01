@@ -16,15 +16,15 @@ Book bookThree= Book(
     author: 'Humayun Ahmed',
     publicationYear: 1997);
 
-        //Book-01 details:title,author,publish year (object) call
+//Book-01 details:title,author,publish year (object) call
         bookOne.getTitle();
         bookOne.getAuthor();
         bookOne.getPublicationYear();
         bookOne.getBookAge();
-        //number of pages reader reads (object)
+//number of pages reader reads
         bookOne.read(16);
         bookOne.read(21);
-
+        bookOne.read(24);
         bookOne.getPagesRead();
 
 //Book-02 details:title,author,publish year (object)
@@ -33,7 +33,7 @@ bookTwo.getAuthor();
 bookTwo.getPublicationYear();
 bookTwo.getBookAge();
 
-//Book-02 number of pages reader reads (object)
+//Book-02 number of pages reader reads
 bookTwo.read(6);
 bookTwo.read(11);
 bookTwo.read(1);
@@ -45,7 +45,7 @@ bookTwo.getPagesRead();
         bookThree.getAuthor();
         bookThree.getPublicationYear();
         bookThree.getBookAge();
-//Book-03 number of pages reader reads (object)
+//Book-03 number of pages reader reads
         bookThree.read(6);
         bookThree.read(12);
         bookThree.read(13);
@@ -53,8 +53,7 @@ bookTwo.getPagesRead();
 
         bookThree.getPagesRead();
 
-print('total book number is: ${Book.totalBooks}');
-//print total number of object/book in this function
+print('total book number is: ${Book.totalBooks}'); //Calculat total number of object
 
 
 
