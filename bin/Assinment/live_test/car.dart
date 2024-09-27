@@ -9,11 +9,11 @@ class Car {
 
 
   getBrand() {
-    return print('Book Name: $brand');
+    return print('Brand Name: $brand');
   }
 
   getModel() {
-    return print('author Name: $model');
+    return print('Model Name: $model');
   }
 
   getYear() {
